@@ -190,6 +190,7 @@ span{
 }
 .flex-container-body1>.first-box{
     padding-left: 30px;
+
 }
 .flex-container-body1>.first-box>.heading{
     display: flex;
@@ -199,9 +200,12 @@ span{
     direction: rtl;
     border-bottom: solid lightgrey 1px;
 }
-.flex-container-body1>.first-box>.data>h2{
+.flex-container-body1>.first-box>.data>h2, h3{
     color: dodgerblue;
     font-size: 15px;
+}
+.flex-container-body1>.first-box>.data {
+    background: lightgrey;
 }
 .caption{
     display: block;
@@ -239,6 +243,28 @@ button{
 }
 .second-box{
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    width: 350px;
 }
+h3{
+    border-bottom: solid darkgrey 1px;
+    padding: 20px;
+}
+.second-box>div{
+    display: flex;
+    flex-direction: column;
+    background: lightgrey;
+}
+.mid{
+    height: 50px;
+    background: white !important;
+}
+.content{
+    font-size: 13px;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+.content p{
+    margin: 0;
+}
+
