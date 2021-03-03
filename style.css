@@ -19,7 +19,13 @@ body{
     flex-direction: column;
     background: darkgrey;
 }
-.flex-container-Navbar>nav {
+.footer{
+    display: flex;
+    background: darkgrey;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container-Navbar>nav{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,17 +34,17 @@ body{
     color: dodgerblue;
 }
 
-nav > ul {
+nav > ul, .footer>ul {
     display: flex;
     list-style: none;
     padding: 0;
     direction: rtl;
 }
-nav>ul>li{
+nav>ul>li, .footer>ul>li{
     border-left: lightgrey solid 1px;
     size: 50px;
 }
-nav>ul>li:first-child, nav>ul>li:last-child{
+nav>ul>li:first-child, nav>ul>li:last-child, .footer>ul>li:last-child{
     border: none;
 }
 nav > ul > li > a {
@@ -46,6 +52,11 @@ nav > ul > li > a {
     text-decoration: none;
     padding: 10px;
     display: inline-block;
+}
+.footer>ul>li>a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
 }
 
 nav > ul > li > a:hover, nav > ul > li > ul > li > a:hover{
@@ -75,4 +86,14 @@ nav > ul > li > ul > li >a{
 
 nav > ul > li:hover > ul {
     display: block;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgrey;
+    color: white;
+    text-align: center;
 }
