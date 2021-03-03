@@ -1,5 +1,5 @@
 *{
-    font-size: 9pt;
+    font-size: 13pt;
     font-family: 'Arial (Hebrew)', sans-serif;
     box-sizing: border-box;
 }
@@ -10,9 +10,60 @@ body{
     background: darkgrey;
     color: white;
 }
+#searchBox>div>a{
+    color: white;
+}
 .flex-container-Navbar {
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     background: darkgrey;
 }
+.home-image{
+    color: blue;
+}
 
+nav > ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    direction: rtl;
+}
+nav>ul>li{
+    border-left: lightgrey solid 1px;
+    size: 50px;
+}
+nav>ul>li:first-child, nav>ul>li:last-child, nav>ul>li:nth-child(2){
+    border: none;
+}
+nav > ul > li > a {
+    /*color: white;*/
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav > ul > li > a:hover, nav > ul > li > ul > li > a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+nav > ul > li.active > a {
+    background-color: lightseagreen;
+}
+
+nav > ul > li > ul {
+    list-style: none;
+    position: absolute;
+    width: max-content;
+    display: none;
+    background: darkgrey;
+
+}
+nav > ul > li > ul>li >a{
+    list-style: none;
+}
+
+nav > ul > li:hover > ul {
+    display: block;
+}
