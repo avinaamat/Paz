@@ -115,10 +115,11 @@ nav > ul > li:hover > ul {
     background: #3B5998;
     color: white;
 }
-.tab{
-    height: 400px;
-    width: 400px;
+.tab, .cube{
+    height: 354px;
+    width: 291px;
     position: relative;
+    margin-left: 15px;
 }
 .bg{
     position: absolute;
@@ -134,5 +135,15 @@ h3{
     color: white;
     max-height: 30%;
     text-align: right;
-    font-size: 20px;
+    font-size: 13px;
+}
+span{
+    /*text-align: left;*/
+    /*direction: ltr;*/
+    align-content: center;
+}
+.cube{
+    border: solid grey 2px;
+    height: 216px;
+    justify-content: center;
 }
