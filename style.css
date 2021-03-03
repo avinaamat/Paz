@@ -19,8 +19,8 @@ body{
     flex-direction: column;
     background: darkgrey;
 }
-.home-image{
-    color: blue;
+.fa-home{
+    color: dodgerblue;
 }
 
 nav > ul {
@@ -33,11 +33,11 @@ nav>ul>li{
     border-left: lightgrey solid 1px;
     size: 50px;
 }
-nav>ul>li:first-child, nav>ul>li:last-child, nav>ul>li:nth-child(2){
+nav>ul>li:first-child, nav>ul>li:last-child{
     border: none;
 }
 nav > ul > li > a {
-    /*color: white;*/
+    color: white;
     text-decoration: none;
     padding: 10px;
     display: inline-block;
@@ -60,8 +60,12 @@ nav > ul > li > ul {
     background: darkgrey;
 
 }
-nav > ul > li > ul>li >a{
+nav > ul > li > ul > li >a{
     list-style: none;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
 }
 
 nav > ul > li:hover > ul {
