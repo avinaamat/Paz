@@ -224,5 +224,21 @@ span{
 }
 .fields input{
     display: inline-block;
-
+    margin-bottom: 5px;
+}
+textarea{
+    width: 280px;
+    height: 150px;
+    margin-bottom: 5px;
+}
+button{
+    float: left;
+    color: white;
+    background-color: dodgerblue;
+    margin-left: 187px;
+}
+.second-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
