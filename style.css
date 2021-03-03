@@ -17,13 +17,7 @@ body{
     padding-top: 20px;
     display: flex;
     flex-direction: column;
-    background: darkgrey;
-}
-flex-container-body{
-    padding-top: 20px;
-    display: flex;
-    flex-direction: row;
-    background: black;
+    background: linear-gradient(to bottom,darkgrey 90%, lightgray 10%);
 }
 .footer{
     display: flex;
@@ -99,6 +93,7 @@ nav > ul > li > ul > li >a{
 
 nav > ul > li:hover > ul {
     display: block;
+    z-index: 100;
 }
 
 .footer {
