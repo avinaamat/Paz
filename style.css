@@ -1,0 +1,9 @@
+*{
+    font-size: 9pt;
+    font-family: 'Arial (Hebrew)', sans-serif;
+    box-sizing: border-box;
+}
+#searchBox>div>button{
+    background: darkgrey;
+    color: white;
+}
