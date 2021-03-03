@@ -96,4 +96,9 @@ nav > ul > li:hover > ul {
     background-color: darkgrey;
     color: white;
     text-align: center;
+    height: 50px;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
 }
