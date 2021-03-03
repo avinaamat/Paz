@@ -3,7 +3,16 @@
     font-family: 'Arial (Hebrew)', sans-serif;
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+}
 #searchBox>div>button{
     background: darkgrey;
     color: white;
 }
+.flex-container-Navbar {
+    display: flex;
+    flex-direction: column;
+    background: darkgrey;
+}
+
