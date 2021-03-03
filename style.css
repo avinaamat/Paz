@@ -181,12 +181,48 @@ span{
     font-size: 12px;
     color: #5c5c5c;
 }
-
-.flex-container-body>.heading{
+.flex-container-body1{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    direction: rtl;
+    flex-direction: row;
+}
+.flex-container-body1>.first-box{
+    padding-left: 30px;
+}
+.flex-container-body1>.first-box>.heading{
     display: flex;
     justify-content: right;
     align-items: center;
     padding-top: 10px;
     direction: rtl;
     border-bottom: solid lightgrey 1px;
+}
+.flex-container-body1>.first-box>.data>h2{
+    color: dodgerblue;
+    font-size: 15px;
+}
+.caption{
+    display: block;
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 5px 0;
+}
+.instructions{
+    float: right;
+    margin-left: 24px;
+    color: #72716d;
+    font-size: 12px;
+    width: 440px;
+}
+.fields label{
+    display: inline-block;
+    width: 100px;
+}
+.fields input{
+    display: inline-block;
+
 }
