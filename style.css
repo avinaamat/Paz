@@ -1,4 +1,4 @@
-*{
+span{
     font-size: 13pt;
     font-family: 'Arial (Hebrew)', sans-serif;
     box-sizing: border-box;
@@ -19,6 +19,12 @@ body{
     flex-direction: column;
     background: darkgrey;
 }
+flex-container-body{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    background: black;
+}
 .footer{
     display: flex;
     background: darkgrey;
@@ -29,6 +35,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.flex-container-body>.tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    direction: rtl;
 }
 .fa-home{
     color: dodgerblue;
@@ -101,4 +114,25 @@ nav > ul > li:hover > ul {
 .fa-facebook {
     background: #3B5998;
     color: white;
+}
+.tab{
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+.bg{
+    position: absolute;
+}
+h3{
+    margin: 0;
+}
+.inside-txt{
+    position: absolute;
+    bottom: 0;
+    background-color: darkgrey;
+    opacity: 90%;
+    color: white;
+    max-height: 30%;
+    text-align: right;
+    font-size: 20px;
 }
