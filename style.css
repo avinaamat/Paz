@@ -182,4 +182,11 @@ span{
     color: #5c5c5c;
 }
 
-
+.flex-container-body>.heading{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-top: 10px;
+    direction: rtl;
+    border-bottom: solid lightgrey 1px;
+}
